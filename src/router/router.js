@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Default from "../screens/Default"
 import Products from "../screens/Product";
+import LoginForm from "../screens/LoginForm";
 import App from "../App"
 
 const routes = createBrowserRouter([
@@ -15,6 +16,10 @@ const routes = createBrowserRouter([
             {
                 path: '/products',
                 element: <Products />,
+            },
+            {
+                path: '/form',
+                element: <LoginForm />,
             },
         ]
     }

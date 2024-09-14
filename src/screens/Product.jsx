@@ -1,6 +1,6 @@
 import Home from "./Products/_components/Home";
 
-const Product = ()=>{
+const Producto = ()=>{
     return (
         <>
         <Home/>
@@ -8,4 +8,4 @@ const Product = ()=>{
     );
 }
 
-export default Product;
+export default Producto;

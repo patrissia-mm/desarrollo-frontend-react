@@ -1,7 +1,10 @@
+import { useSelector } from "react-redux";
+
 const Home = ()=>{
+    const productO = useSelector((state) => state.product);
     return(
         <>
-            <h5>Product Component</h5>
+            <h4>{productO.PRODUCTS}</h4>
         </>
     )
 }
